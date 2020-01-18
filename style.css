@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body  {
+background-color: black;
+}
+
+section.carrousel {
+  background: black;
+  height: auto;
+  width: 100%;
+  margin-top: 110px;
+}
+
+.black {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  background: black;
+  position: fixed; /*pour coller le logo en haut*/
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+figure.logo {
+  width: 350px;
+  height: 110px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: grey;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: blue;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  height: auto;
+}
+
+hr {
+  width: 100%;
+  /* border: 1px solid white; */
+  margin-bottom: 5px;
+  margin-top: 0px /*!important*/;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.centre {
+  background: black;
+  height: 100vh;
+}
+
+
+article.chiffre {
+  width: 33.33%;
+  height: 170px;
+  border: 1px solid white;
+  padding-top: 30px;
+  background: black;
+}
+
+article.chiffre > h4,
+p {
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+hgroup {
+  text-align: center;
+  color: white;
+  margin-left: 160px;
+
+}
+
+.milieu {
+  margin-top: 10px;
+}
+
+main {
+  height: auto;
+}
+
+.alex > h5 {
+  font-size: 3.25rem;
+}
+
+div.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+}
+
+#P1 {
+  z-index: 1;
+  position: inherit;
+  left: 150px;
+}
+
+#P1, #P2, #P3 {
+  width: 90%;
+}
+
+div.row {
+  margin-left: 30px;
+}
+
+.portfolio {
+  left: 100px;
+}
+
+.deux {
+  margin-left: -100px;
+}
+
+.trois {
+  width: 19%;
+  margin-left: 100px;
+}
+
+.black {
+  background: black;
+}
+
+img.w-75{
+    margin-left: 230px;
+    margin-bottom: 40px !important;
+}
+
+li{
+  background-color: #0000 !important;
+}
+
+li.active {
+  background-color: #0000 !important;
+}
+
+button.none{
+  text-decoration: none !important ;
+}
+
+div.carousel {
+  background:black;
+}
+
+h4.port {
+
+  margin-top: 50px;
+
+}
